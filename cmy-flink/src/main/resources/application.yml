@@ -1,0 +1,13 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /monitor
+spring:
+  profiles:
+    active: local
+  messages:
+    encoding: UTF-8
+  servlet:
+    multipart:
+      max-file-size: 100000MB
+      max-request-size: 100000MB
